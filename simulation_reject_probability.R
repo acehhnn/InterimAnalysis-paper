@@ -35,7 +35,7 @@ p_simu = function(K, A, c, n_seq, pi_1, pi_0){
   df = data.frame(
     prop = p_prop_seq,
     rank = p_rank_seq,
-    unit = rep(n_seq, each = (K+1))
+    unit = rep(n_seq, each = (K + 1))
   )
   return(df)
 }
